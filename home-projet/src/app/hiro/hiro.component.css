@@ -1,0 +1,9 @@
+.bgimage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.336)), url("../../assets/images/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: #000; */
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: bottom center;
+}
