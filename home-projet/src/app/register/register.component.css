@@ -1,0 +1,122 @@
+.register{
+    height: 10vh !important;
+}
+
+
+
+
+/* arrange */
+
+element.style {}
+
+.p-0 {
+    padding: 0!important;
+}
+
+
+/* ------------------------------------- */
+/* BASIC SETUP */
+/* ------------------------------------- */
+*{
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ------------------------------------- */
+.row{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+section{
+    padding: 100px 0;
+}
+
+
+
+
+/* ------------------------------------- */
+/* HEADER */
+/* ------------------------------------- */
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)),url("../../assets/images/img1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+
+header.sticky a:after {
+    top: 7.5vh
+}
+header.sticky {
+    height: 12vh;
+    transition-duration: .4s;
+    box-shadow: 0 10px 6px -6px rgba(18, 18, 18, .2);;
+    background: none;
+    background-color: #fff;
+}
+header.sticky > .container {
+    width: 80%;
+    transition-duration: .3s;
+}
+header.sticky a {
+    color: #00ab9f;
+}
+header.sticky form {
+    background-color: #eee;
+}
+header.sticky .dropdown-menu {
+    top: 12vh;
+}
+header.sticky header nav {
+    width: 75%;
+}
+header.sticky #header-form {
+    width: 25%;
+}
+
+/* ------------------------------------- */
+/* TESTIMONIALS */
+/* ------------------------------------- */
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url("../../assets/images/img1.jpg");
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+
+}
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+
+}
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img{
+     height: 45px;
+     border-radius: 50%;
+     margin-right: 10px;
+     vertical-align: middle;
+}
+
+
